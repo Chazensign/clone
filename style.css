@@ -1,0 +1,120 @@
+body {
+    height: 600vh;
+    margin: 0;
+}
+.border {
+    box-sizing: border-box;
+    width: 96vw;
+    height: 99%;
+    background: white;
+    top: 0;
+    z-index: -5;
+    margin-left: 2%;
+    margin-top: .02%;
+
+
+}
+.db {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    font-size: 12px;
+    margin-right: 25vw;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+li {
+    
+    list-style: none;
+}
+li:hover {
+    opacity: .5;
+}
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+    height: 50px;
+    align-self: top;
+    padding-left: 25px;
+
+}
+.box1 {
+    width: 230px;
+    position: sticky;
+    display: flex;
+    opacity: 1;
+
+    left: 90vw;
+    top: 55px;
+}
+.sub {
+    display: absolute;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #FF0063;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #FF0063;
+    border-radius: 20px;
+    right: 10px;
+    top: 10px;
+    margin: 0;
+    text-align: center;
+    padding-top: 12px
+}
+.sub:hover {
+    background: white;
+    color: #FF0063;
+}
+.in {
+    background: black;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    height: 35px;
+    padding-bottom: 3px;
+    margin-left: 45px;
+    margin-top: 3px;
+
+}
+main {
+    height: 500px;
+    width: 100vw;
+}
+.circles {
+    position: sticky;
+    left: 95vw;
+    top: 75vh;
+    width: 80px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.round {
+    border: 1px solid #FF0063;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.round:hover {
+    background: #FF0063;
+}
+footer {
+    background: 052ACC;
+    height: 20px;
+    position: relative;
+    
+}
