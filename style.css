@@ -1,6 +1,7 @@
 body {
     height: 600vh;
     margin: 0;
+    position: relative;
 }
 .border {
     box-sizing: border-box;
@@ -29,7 +30,7 @@ ul {
     margin-bottom: 25px;
 }
 li {
-    
+
     list-style: none;
 }
 li:hover {
@@ -88,6 +89,11 @@ li:hover {
     margin-top: 3px;
 
 }
+img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
 main {
     height: 500px;
     width: 100vw;
@@ -113,8 +119,9 @@ main {
     background: #FF0063;
 }
 footer {
-    background: 052ACC;
-    height: 20px;
-    position: relative;
-    
+    background: #052ACC;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
