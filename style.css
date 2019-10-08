@@ -1,23 +1,28 @@
 body {
     height: 600vh;
     margin: 0;
+    padding: 0;
+    position: relative;
+    background: #FFE3EA;
 }
 .border {
     box-sizing: border-box;
-    width: 96vw;
+    width: 97vw;
     height: 99%;
     background: white;
     top: 0;
     z-index: -5;
-    margin-left: 2%;
-    margin-top: .02%;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    padding: 0;
 
 
 }
 .db {
     margin-bottom: 20px;
     margin-left: 40px;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 500;
 }
 ul {
     display: flex;
@@ -51,19 +56,20 @@ li:hover {
     width: 230px;
     position: sticky;
     display: flex;
-    opacity: 1;
-
-    left: 90vw;
+    z-index: 1;
+    left: 88vw;
     top: 55px;
 }
 .sub {
     display: absolute;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
     color: white;
     background: #FF0063;
-    width: 110px;
+    width: 115px;
     height: 40px;
     border: 2px solid #FF0063;
     border-radius: 20px;
@@ -71,50 +77,85 @@ li:hover {
     top: 10px;
     margin: 0;
     text-align: center;
-    padding-top: 12px
+    padding-top: 10px
 }
 .sub:hover {
     background: white;
     color: #FF0063;
 }
 .in {
-    background: black;
-    color: white;
-    font-size: 40px;
+    font-size: 20px;
     box-sizing: border-box;
     height: 35px;
     padding-bottom: 3px;
     margin-left: 45px;
     margin-top: 3px;
-
+}
+.in img {
+    height: 38px;
+    width: 38px;
+}
+.lightPink {
+    width: 93vw;
+    height: 600px;
+    background: #FFE3EA;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    margin-top: 65px;
 }
 main {
-    height: 500px;
+    position: relative;
+    height: 90%;
     width: 100vw;
 }
 .circles {
     position: sticky;
-    left: 95vw;
-    top: 75vh;
+    left: 100vw;
+    top: 55%;
     width: 80px;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
+    margin: 0;
 
 }
 .round {
     border: 1px solid #FF0063;
+    background: white;
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round img {
+    width: 15px;
+    height: 15px;
 }
 .round:hover {
     background: #FF0063;
 }
 footer {
-    background: 052ACC;
-    height: 20px;
-    position: relative;
-    
+    background: #052ACC;
+    box-sizing: border-box;
+    color: white;
+    height: 150px;
+    width: 97vw;
+    margin-bottom: 0;
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+    line-height: 120px;
+
+}
+.list2 {
+    width: 32vw;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    color: lightblue;
 }
