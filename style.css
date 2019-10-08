@@ -15,14 +15,26 @@ body {
     margin-left: 1.5%;
     margin-top: 1.5%;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: space-around; */
 
 
 }
 .db {
     margin-bottom: 20px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-left: 1vw;
+    font-size: 24px;
     font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.db img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 ul {
     display: flex;
@@ -44,6 +56,7 @@ li:hover {
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
+    width: 94vw;
     font-size: 12px;
     font-weight: 600;
     align-items: center;
@@ -82,6 +95,7 @@ li:hover {
 .sub:hover {
     background: white;
     color: #FF0063;
+    transition: 250ms;
 }
 .in {
     font-size: 20px;
@@ -100,21 +114,93 @@ li:hover {
     height: 600px;
     background: #FFE3EA;
     box-sizing: border-box;
-    position: absolute;
     right: 0;
     margin-top: 65px;
+}
+.bigBox2 {
+    width: 93vw;
+    height: 800px;
+    border: 10px dotted lightcyan;
+    box-sizing: border-box;
+    right: 0;
+    margin-top: 65px;
+    margin-right: 4vw;
+}
+#bookContainer {
+    width: 67vw;
+    height: 1000px;
+    /* border: 3px solid black; */
+    box-sizing: border-box;
+    margin-right: 13vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 65px;
+}
+.books {
+    /* border: 3px solid green; */
+    width: 32vh;
+    height: 500px;
+    box-sizing: border-box;
+}
+summary {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#teal {
+    background: teal;
+    height: 300px;
+    width: 200px;
+}
+#pink {
+    background: pink;
+    height: 300px;
+    width: 200px;
+}
+#green {
+    background: green;
+    height: 300px;
+    width: 200px;
+}
+#purple {
+    background: purple;
+    height: 300px;
+    width: 200px;
+}
+#red {
+    background: red;
+    height: 300px;
+    width: 200px;
+}
+#blue {
+    background: blue;
+    height: 300px;
+    width: 200px;
 }
 main {
     position: relative;
     height: 90%;
     width: 100vw;
 }
+.bigBox4 {
+    width: 93vw;
+    height: 800px;
+    background: lightslategray;
+    box-sizing: border-box;
+    right: 0;
+    margin-top: 65px;
+}
 .circles {
-    position: sticky;
-    left: 100vw;
-    top: 55%;
-    width: 80px;
-    height: 200px;
+    position: fixed;
+    box-sizing: border-box;
+    padding-right: 25px;
+    bottom: 40px;
+    width: auto;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -125,9 +211,11 @@ main {
 .round {
     border: 1px solid #FF0063;
     background: white;
+    color: #FF0063;
+    font-size: 14px;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 37.5px;
+    width: 37.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +226,8 @@ main {
 }
 .round:hover {
     background: #FF0063;
+    color: white;
+    transition: 250ms;
 }
 footer {
     background: #052ACC;
